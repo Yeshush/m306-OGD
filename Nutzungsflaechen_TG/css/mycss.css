@@ -1,0 +1,104 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #222;
+}
+
+.header {
+    background: #222;
+    padding: 6px 24px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    letter-spacing: 1px;
+    font: caption;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.menu {
+    position: sticky;
+    top: 0px;
+    background-color: #55d6aa;
+    margin: 0px;
+    overflow: hidden;
+    z-index: 2;
+    padding-left: 14%;
+   
+}
+
+.menu a {
+   font: menu;
+   text-decoration: none;
+   font-size: 18px;
+   letter-spacing: 1px;
+   box-sizing: border-box;
+   display: inline-block;
+   float: left;
+   color: black;
+   text-align: center;
+   padding: 16px 24px;
+}
+
+
+.menu a:hover {
+    color: #000;
+}
+
+.menu a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+    position: relative;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+.menu a:hover::before {
+    width: 100%;
+}
+
+.content {
+    padding: 0px 24px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+main{
+    padding-left: 16.5%;
+    padding-right: 16.5%;
+}
+footer{
+    padding-left: 16.5%;
+    padding-right: 16.5%;
+    background-color: #171616;
+    color: white;
+}
+hr{
+    background-color:#55d6aa;
+    margin: 0px;
+}
+p{
+    font-size:18px;
+}
+#map {
+    height: 600px ; 
+}
+#titleimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+    min-width:300px;
+}
+#title{
+    text-align: center; 
+    color: #55d6aa; 
+    font-size:600%;
+}
+
